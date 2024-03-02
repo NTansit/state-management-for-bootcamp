@@ -16,18 +16,10 @@ function Profile() {
             <label className="block">Gender</label>
             <div className="flex gap-4">
               <label>
-                <input
-                  type="radio"
-                  value="Male"
-                />{' '}
-                Male
+                <input type="radio" value="Male" /> Male
               </label>
               <label>
-                <input
-                  type="radio"
-                  value="Female"
-                />{' '}
-                Female
+                <input type="radio" value="Female" /> Female
               </label>
             </div>
           </div>
@@ -43,25 +35,13 @@ function Profile() {
             <label className="block">Interests</label>
             <div className="flex flex-wrap gap-4">
               <label>
-                <input
-                  type="checkbox"
-                  value="Reading"
-                />{' '}
-                Reading
+                <input type="checkbox" value="Reading" /> Reading
               </label>
               <label>
-                <input
-                  type="checkbox"
-                  value="Traveling"
-                />{' '}
-                Traveling
+                <input type="checkbox" value="Traveling" /> Traveling
               </label>
               <label>
-                <input
-                  type="checkbox"
-                  value="Gaming"
-                />{' '}
-                Gaming
+                <input type="checkbox" value="Gaming" /> Gaming
               </label>
               {/* Add more interests as needed */}
             </div>
@@ -70,16 +50,14 @@ function Profile() {
             <button className="px-6 py-2 mt-4 text-white bg-blue-600 rounded-lg hover:bg-blue-900">
               Update Profile
             </button>
-            <button
-              className="px-6 py-2 text-white bg-red-500 rounded-lg hover:bg-red-700"
-            >
+            <button className="px-6 py-2 text-white bg-red-500 rounded-lg hover:bg-red-700">
               Logout
             </button>
           </div>
         </form>
       </div>
     </div>
-  )
+  );
 }
 
-export default Profile
+export default Profile;
